@@ -1,0 +1,20 @@
+{
+  "triggers": {
+    "description": "触发词列表（不含唤醒词）",
+    "type": "list",
+    "items": {
+      "type": "string"
+    },
+    "default": ["你好", "帮助"],
+    "hint": "每行一个触发词，如：你好"
+  },
+  "responses": {
+    "description": "回复内容列表（与上面一一对应）",
+    "type": "list",
+    "items": {
+      "type": "string"
+    },
+    "default": ["你好呀！", "这是精确匹配插件"],
+    "hint": "每行一个回复，顺序与触发词对应"
+  }
+}

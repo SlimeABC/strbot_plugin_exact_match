@@ -1,0 +1,5 @@
+name: astrbot_plugin_exact_match
+author: Slime
+desc: 精确匹配回复插件 - 完全匹配触发
+version: 1.0.0
+repo: https://github.com/SlimeABC/strbot_plugin_exact_match
